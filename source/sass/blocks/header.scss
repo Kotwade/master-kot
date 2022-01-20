@@ -134,12 +134,9 @@
 
 .header__container img {
   display: block;
-  height: 555px;
 
   @media (max-width: $viewport--lg) {
     object-fit: cover;
-    width: 405px;
-    height: 415px;
     margin-top: 50px;
   }
 
