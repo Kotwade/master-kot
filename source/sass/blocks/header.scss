@@ -134,6 +134,7 @@
 
 .header__container img {
   display: block;
+  overflow: hidden;
 
   @media (max-width: $viewport--lg) {
     object-fit: cover;

@@ -1,0 +1,39 @@
+.team {
+  padding-top: 120px;
+  padding-bottom: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.team h2 {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+
+.team__wrapper {
+  max-width: 970px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team__item {
+  text-align: center;
+
+  @media (max-width: $viewport--md) {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+}
+
+.team__item p {
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
