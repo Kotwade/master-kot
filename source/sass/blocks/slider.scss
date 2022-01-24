@@ -9,8 +9,10 @@
 .slider h2 {
   font-size: 48px;
   line-height: 50px;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 120px;
 }
 
 .slider__item {
@@ -30,6 +32,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+}
+
+.slider__item img {
+  object-fit: cover;
 }
 
 .slider__item p {
