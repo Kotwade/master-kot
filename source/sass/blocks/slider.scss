@@ -1,0 +1,78 @@
+.slider {
+  position: relative;
+  padding-bottom: 152px;
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slider h2 {
+  font-size: 48px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.slider__item {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  flex-wrap: wrap;
+
+  @media (max-width: 1220px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: $viewport--md) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.slider__item p {
+  font-size: 16px;
+  line-height: 18px;
+  max-width: 715px;
+  margin-top: 40px;
+
+  @media (max-width: 1220px) {
+    width: 100%;
+  }
+}
+
+.swiper-button-prev {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../img/zn_otziv_left.png");
+  background-repeat: no-repeat;
+  width: 86px;
+  height: 120px;
+  z-index: 20;
+  cursor: pointer;
+
+  @media (max-width: $viewport--md) {
+    display: none;
+  }
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("../img/zn_otziv_right.png");
+  background-repeat: no-repeat;
+  width: 86px;
+  height: 120px;
+  z-index: 20;
+  cursor: pointer;
+
+  @media (max-width: $viewport--md) {
+    display: none;
+  }
+}
