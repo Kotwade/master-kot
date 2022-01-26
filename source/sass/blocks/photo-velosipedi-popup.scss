@@ -6,7 +6,15 @@
   z-index: 30;
   opacity: 1;
   visibility: visible;
-  width: 70%;
+  width: 700px;
+
+  @media (max-width: $viewport--md) {
+    width: 360px;
+  }
+
+  @media (max-width: 420px) {
+    width: 260px;
+  }
 }
 
 .photo-velosipedi-popup--hidden {
