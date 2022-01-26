@@ -1,0 +1,20 @@
+.photo-velosipedi-popup {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 30;
+  opacity: 1;
+  visibility: visible;
+  width: 70%;
+}
+
+.photo-velosipedi-popup--hidden {
+  display: none;
+}
+
+.photo-velosipedi-popup img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}

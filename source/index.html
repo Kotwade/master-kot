@@ -121,19 +121,19 @@
           <img src="img/primer_saita_sedona.jpg" width="300" height="210" alt="">
           <h3>Туристический<br>сайт.</h3>
           <p>Одинаково отображается на всех устройствах.</p>
-          <button type="button" class="button portfolio__button">Увеличить</button>
+          <button type="button" class="button portfolio__button sedona-button">Увеличить</button>
         </div>
         <div class="portfolio__item">
           <img src="img/primer_saita_velosipedi.jpg" width="300" height="210" alt="">
           <h3>Интернет магазин<br>велосипедов.</h3>
           <p>На проект затрачено 30 часов. Верстка резиновая, кроссбраузерная. Реализовано мобильное меню.</p>
-          <button type="button" class="button portfolio__button">Увеличить</button>
+          <button type="button" class="button portfolio__button velosipedi-button">Увеличить</button>
         </div>
         <div class="portfolio__item">
           <img src="img/primer_saita_jewellery.jpg" width="300" height="210" alt="">
           <h3>Интернет магазин<br>украшений.</h3>
           <p>На проект затрачено 54 часа. Верстка резиновая, кроссбраузерная, семантическая. Реализованы: мобильное меню, слайдер, 2 аккордеона, 3 попапа.</p>
-          <button type="button" class="button portfolio__button">Увеличить</button>
+          <button type="button" class="button portfolio__button jewellery-button">Увеличить</button>
         </div>
       </div>
     </section>
@@ -225,6 +225,18 @@
         <button type="button" class="button call__button">Связаться с нами</button>
       </div>
     </section>
+    <section class="photo-sedona-popup photo-sedona-popup--hidden">
+      <img src="img/primer_saita_sedona_ish.jpg" width="500" height="700" alt="">
+      <button type="button" class="button-close sedona-button-close"></button>
+    </section>
+    <section class="photo-velosipedi-popup photo-velosipedi-popup--hidden">
+      <img src="img/primer_saita_velosipedi_ish.jpg" width="500" height="700" alt="">
+      <button type="button" class="button-close velosipedi-button-close"></button>
+    </section>
+    <section class="photo-jewellery-popup photo-jewellery-popup--hidden">
+      <img src="img/primer_saita_jewellery_ish.jpg" width="500" height="700" alt="">
+      <button type="button" class="button-close jewellery-button-close"></button>
+    </section>
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
@@ -241,6 +253,7 @@
       </div>
     </div>
   </footer>
+  <div class="overlay overlay--hidden"></div>
   <script src="js/swiper-bundle.js"></script>
   <script src="js/script.js"></script>
 </body>
