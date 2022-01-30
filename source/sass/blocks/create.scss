@@ -17,6 +17,11 @@
   color: $white;
   text-align: center;
   margin-bottom: 130px;
+
+  @media (max-width: 390px) {
+    font-size: 36px;
+    line-height: 38px;
+  }
 }
 
 .create__container {

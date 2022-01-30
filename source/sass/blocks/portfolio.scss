@@ -1,7 +1,11 @@
 .portfolio {
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 300px;
+  padding-bottom: 200px;
+
+  @media (max-width: $viewport--lg) {
+    padding-bottom: 100px;
+  }
 }
 
 .portfolio h2 {
@@ -11,6 +15,11 @@
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 120px;
+
+  @media (max-width: 390px) {
+    font-size: 36px;
+    line-height: 38px;
+  }
 }
 
 .portfolio__wrapper {

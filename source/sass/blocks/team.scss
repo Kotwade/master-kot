@@ -3,6 +3,10 @@
   padding-bottom: 220px;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (max-width: $viewport--lg) {
+    padding-bottom: 100px;
+  }
 }
 
 .team h2 {
@@ -12,6 +16,11 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 150px;
+
+  @media (max-width: 390px) {
+    font-size: 36px;
+    line-height: 38px;
+  }
 }
 
 .team__wrapper {
