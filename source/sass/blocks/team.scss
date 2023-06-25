@@ -1,11 +1,16 @@
 .team {
-  padding-top: 120px;
-  padding-bottom: 220px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
 
   @media (max-width: $viewport--lg) {
     padding-bottom: 100px;
+  }
+
+  @media (max-width: 390px) {
+    padding-top: 40px;
+    padding-bottom: 50px;
   }
 }
 
